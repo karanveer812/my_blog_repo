@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1d50c6e-e7cd-4260-b3e0-089624a57ac7" name="Default Changelist" comment="" />
+    <list default="true" id="f1d50c6e-e7cd-4260-b3e0-089624a57ac7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +15,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\karan\OneDrive\Desktop\Python\blog-with-users-start\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1vzAgVW17T0IRZL6qP3TuplZg92" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -20,6 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -72,13 +86,44 @@
       <option name="presentableId" value="Default" />
       <updated>1627554654290</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1627706451391</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627706451391</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="713" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1627708620231">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="713" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1627708620231" />
     <state x="594" y="111" key="CommitChangelistDialog2" timestamp="1627706449978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="594" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1627706449978" />
+    <state x="808" y="414" key="Github.ShareDialog" timestamp="1627707726738">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="808" y="414" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627707726738" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1627706327696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -95,5 +140,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627706327696" />
+    <state x="461" y="163" key="SettingsEditor" timestamp="1627708531123">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1627708531123" />
   </component>
 </project>
