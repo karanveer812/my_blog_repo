@@ -13,13 +13,17 @@ from wtforms import StringField, PasswordField, IntegerField, SubmitField, valid
 from flask_wtf import FlaskForm
 import os
 
+from decouple import config
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY")
 ckeditor = CKEditor(app)
 Bootstrap(app)
 
+app.config['SECRET_KEY'] = config("SECRET_KEY")
+
 ##CONNECT TO DB
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DATABASE_URL")
+app.config['SQLALCHEMY_DATABASE_URI'] = config("DATABASE_URL")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
@@ -95,11 +99,7 @@ class Comment(db.Model):
     comment_author = relationship("User", back_populates="comments")
     parent_post = relationship("BlogPost", back_populates="comments")
     
-    
-
-
-
-db.create_all()
+# db.create_all()
 
 if not db.session.query(User).filter_by(id=1).first():
     # noinspection PyArgumentList
